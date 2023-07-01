@@ -1,17 +1,16 @@
-/*
-////////////////////////////////////
-// Linking a JavaScript File
 let js = "amazing";
-console.log(40 + 8 + 23 - 10);
 
-////////////////////////////////////
-// Values and Variables
-console.log("Jonas");
+console.log(40 + 46 + 35 - 13);
+
+console.log("Azores");
 console.log(23);
 
-let firstName = "Matilda";
+let country = "Portugal";
+let continent = "Europe";
+let population_in_millions = 10.33;
 
-console.log(firstName);
+console.log(country, continent, population_in_millions); /*
+
 console.log(firstName);
 console.log(firstName);
 
