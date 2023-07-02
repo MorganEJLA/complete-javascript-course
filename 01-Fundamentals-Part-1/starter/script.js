@@ -1,20 +1,11 @@
 // Values and Variables
 
-let country = "Portugal";
-let continent = "Europe";
-let population_in_millions = 10.8;
-
 // console.log(country, continent, population_in_millions);
 
 let javascriptIsFun = true;
 
-console.log(typeof country);
 console.log(typeof javascriptIsFun);
 console.log(typeof population_in_millions);
-
-let year;
-year = 2024;
-console.log(typeof year);
 
 console.log(typeof null);
 
@@ -60,3 +51,32 @@ let johnBMI2 = johnWeight2 / johnHeight2 ** 2;
 const markHigherBMI = markBMI > johnBMI;
 const johnHigherBMI = johnBMI2 > markBMI;
 console.log(markHigherBMI, johnHigherBMI);
+
+let country = "Portugal";
+let year = 2024;
+let birthYear = 1986;
+
+const manifest =
+  "I'm going to " + country + " for my " + (year - birthYear) + "th birthday";
+
+console.log(manifest);
+
+const manifestNew = `I'm going to ${country} for my ${
+  year - birthYear
+}th birthday`;
+
+console.log(manifestNew);
+
+const age = 1;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  console.log("Steve is old enough to vote 🗳️");
+} else {
+  let yearsLeft = 18 - age;
+  if (yearsLeft <= 1) {
+    console.log(`Steven cant vote. wait another ${yearsLeft} year`);
+  } else {
+    console.log(`Steven cant vote. wait another ${yearsLeft} years`);
+  }
+}
