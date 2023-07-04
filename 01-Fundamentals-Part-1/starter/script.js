@@ -118,14 +118,30 @@ const markHeight = 1.69;
 //   console.log("an island");
 // }
 
-const isTraveling = true;
-const isHappy = true;
-const isWorking = true;
+// const isTraveling = true;
+// const isHappy = true;
+// const isWorking = true;
 
-console.log(isTraveling && isWorking && isHappy);
+// console.log(isTraveling && isWorking && isHappy);
 
-if (isTraveling && isWorking && isHappy) {
-  console.log("That means its 2024");
-} else {
-  console.log(`It's still going to happen`);
+// if (isTraveling && isWorking && isHappy) {
+//   console.log("That means its 2024");
+// } else {
+//   console.log(`It's still going to happen`);
+// }
+
+const day = "friday";
+
+switch(day){
+    case 'monday':
+        console.log('Do Laundry');
+        break;
+    case 'tuesday':
+        console.log('Do more codes');
+    case 'wednesday':
+        console.log('Do some research');
+    case 'thursday':
+        console.log('go to therapy');
+        break;
+    case friday
 }
