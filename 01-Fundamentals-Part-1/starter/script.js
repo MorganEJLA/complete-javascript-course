@@ -130,18 +130,28 @@ const markHeight = 1.69;
 //   console.log(`It's still going to happen`);
 // }
 
-const day = "friday";
+// const day = "friday";
 
-switch(day){
-    case 'monday':
-        console.log('Do Laundry');
-        break;
-    case 'tuesday':
-        console.log('Do more codes');
-    case 'wednesday':
-        console.log('Do some research');
-    case 'thursday':
-        console.log('go to therapy');
-        break;
-    case friday
-}
+// switch(day){
+//     case 'monday':
+//         console.log('Do Laundry');
+//         break;
+//     case 'tuesday':
+//         console.log('Do more codes');
+//     case 'wednesday':
+//         console.log('Do some research');
+//     case 'thursday':
+//         console.log('go to therapy');
+//         break;
+//     case friday
+// }
+// let age = 21;
+// const drink = age >= 18 ? "wine" : "water";
+
+// console.log(`I like to drink ${age >= 18 ? "wine" : "water"} `);
+
+const bill = 275;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(
+  `The bill was ${bill}, the tip was ${tip},and the total value ${bill + tip}`
+);
